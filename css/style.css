@@ -1,4 +1,10 @@
 /* test */
-.container {
+.top-head {
     background-color: rgb(44, 62, 80);
+    color: white;
+}
+
+.mid-head {
+    background-color: rgb(26, 188, 156);
+    color: white;
 }
