@@ -10,18 +10,18 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="container-fluid">
+    <header class="container-fluid p-0">
         <div class="top-head py-3">
             <div class="container m-auto d-flex justify-content-between align-items-center top-cont">
                 <div class="">
                     <h4>START BOOTSTRAP</h4>
                 </div>
-                <div class="">
-                    <i class="d-md-none d-sm-block fa-solid fa-bars"></i>
-                    <ul class="d-xs-none d-sm-none d-md-flex list-unstyled gap-4">
-                        <li class=""><h6>PORTFOLIO</h6></li>
-                        <li class=""><h6>RIGUARDO</h6></li>
-                        <li class=""><h6>CONTATTI</h6></li>
+                <div class="d-flex align-items-center">
+                    <i class="d-block d-md-none fa-solid fa-bars"></i>
+                    <ul class="d-none d-md-flex list-unstyled gap-4 mb-0">
+                        <li class=""><b>PORTFOLIO</b></li>
+                        <li class=""><b>RIGUARDO</b></li>
+                        <li class=""><b>CONTATTI</b></li>
                     </ul>
                 </div>
             </div>
@@ -148,11 +148,19 @@
                 </div>
                 <div class="col-lg-4 col-sm-12 text-center">
                     <h5>PER TUTTA LA RETE</h5>
-                    <div class="social">
-                        <i class="border rounded-circle px-3 py-3 fa-brands fa-facebook-f"></i>
-                        <i class="border rounded-circle px-3 py-3 fa-brands fa-google-plus-g"></i>
-                        <i class="border rounded-circle px-3 py-3 fa-brands fa-twitter"></i>
-                        <i class="border rounded-circle px-3 py-3 fa-brands fa-linkedin-in"></i>
+                    <div class="social d-flex flex-row-reverse gap-1 justify-content-center">
+                        <div class="d-flex align-items-center justify-content-center border rounded-circle px-3 py-3 icon-cnt">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center border rounded-circle px-3 py-3 icon-cnt">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center border rounded-circle px-3 py-3 icon-cnt">
+                            <i class="fa-brands fa-google-plus-g"></i>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center border rounded-circle px-3 py-3 icon-cnt">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-12 text-center">
@@ -162,7 +170,7 @@
             </div>
         </section>
         <section class="container-fluid py-2 end-page text-center">
-            <p class="mt-0">copyright &copy; your mother 2019<p>
+            <p class="mb-0 pt-3 pb-3">copyright &copy; your mother 2019</p>
         </section>
     </footer>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
