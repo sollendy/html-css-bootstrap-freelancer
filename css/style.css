@@ -9,9 +9,26 @@
     color: white;
 }
 
+.striscia {
+    width: 130px;
+    height: 4px;
+}
+
+.jumbo-st {
+    background-color: white;
+}
+
+.port-st {
+    background-color: black;
+}
+
 .riguardo {
     background-color: rgb(26, 188, 156);
     color: white;
+}
+
+.about-st {
+    background-color: white;
 }
 
 #form-button{
