@@ -93,28 +93,27 @@
                     <p class="col-lg-6 col-sm-12">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis suscipit earum, sit tempore fugit nihil rerum sint, nam incidunt repellat et reprehenderit sequi magnam deserunt aut, iure cumque consequatur blanditiis?</p>
                 </div>
                 <div>
-                    <button>Scarica</button>
+                    <button id="about-btn" class="border border-light rounded-3 px-3 py-1"><i class="fa-solid fa-download"></i> Scarica</button>
                 </div>
             </div>
         </section>
         <section class="container-fluid contatti">
-            <div class="container pt-5">
+            <div class="container pt-5 pb-5">
                 <h1 class="text-center">CONTATTACI</h1>
                 <form>
                     <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label">Email address</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                      <input type="text" placeholder="Nome" class="form-control border-top-0 border-end-0 border-start-0" id="exampleInputtext" aria-describedby="namelHelp">
                     </div>
                     <div class="mb-3">
-                      <label for="exampleInputPassword1" class="form-label">Password</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1">
+                      <input type="email" placeholder="indirizzo Mail" class="form-control border-top-0 border-end-0 border-start-0" id="exampleInputPassword1">
                     </div>
-                    <div class="mb-3 form-check">
-                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    <div class="mb-3">
+                      <input type="tel" placeholder="Numero cellulare" class="form-control border-top-0 border-end-0 border-start-0" id="exampletel">
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <div class="mb-3">
+                        <textarea placeholder="Messaggio" class="container form-control border-top-0 border-end-0 border-start-0" name="Messaggio" id="area-testo" cols="30" rows="10"></textarea>
+                    </div>
+                    <button type="Invia" id="form-button" class="btn btn-primary border-0">Invia</button>
                   </form>
             </div>
         </section>
